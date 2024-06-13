@@ -10,6 +10,7 @@ const AboutSite = () => {
           src="https://i.imgur.com/4lVcpeb.jpg"
           alt=""
           className="flex md:size-2/4"
+          loading="lazy"
         />
 
         <p className="text-lg md:text-xl md:w-3/4">
@@ -55,7 +56,7 @@ const AboutSite = () => {
         </p>
 
         <Link
-          to="https://calendar.app.google/DwsFzMqrtMQqDCVm8"
+          to="/contact"
           className="bg-black flex  px-6 py-2 rounded-2xl text-white font-bold hover:bg-white hover:text-black hover:outline"
         >
           Book a Free Consultation
@@ -101,7 +102,7 @@ const AboutSite = () => {
           of bringing your dream home to life.
         </p>
         <Link
-          to="https://calendar.app.google/DwsFzMqrtMQqDCVm8"
+          to="/contact"
           className="bg-black flex  px-6 py-2 rounded-2xl text-white font-bold hover:bg-white hover:text-black hover:outline"
         >
           Book a Free Consultation

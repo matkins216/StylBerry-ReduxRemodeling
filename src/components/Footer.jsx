@@ -10,9 +10,10 @@ const Footer = () => {
         <div>
           <a href="/" className="flex justify-center items-center gap-5 ">
             <img
-                                src="https://i.imgur.com/AzpqyBZ.png"
+              src="https://i.imgur.com/AzpqyBZ.png"
               className="md:size-1/5"
               alt="Logo"
+              loading="lazy"
             />
           </a>
         </div>

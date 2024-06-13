@@ -4,12 +4,13 @@ import { Link } from "react-router-dom";
 const Services = () => {
   return (
     <div className="flex flex-col justify-center text-center px-5 py-10 md:p-16 font-rale gap-20 w-full">
-     <h2 className="text-7xl font-semibold">Services</h2>
+      <h2 className="text-7xl font-semibold">Services</h2>
       <div className="flex flex-col justify-center mx-5 gap-8 md:gap-10 items-center">
         <img
-                      src="https://i.imgur.com/4lVcpeb.jpg"
+          src="https://i.imgur.com/4lVcpeb.jpg"
           alt=""
           className="flex md:size-2/4"
+          loading="lazy"
         />
         <h3 className="text-2xl md:text-4xl font-medium">
           Basement Remodeling and Renovations
@@ -46,9 +47,10 @@ const Services = () => {
 
       <div className="flex flex-col justify-center mx-5 gap-8 md:gap-10 items-center">
         <img
-                      src="https://i.imgur.com/j1aNsIK.jpg"
+          src="https://i.imgur.com/j1aNsIK.jpg"
           alt=""
           className="flex md:size-2/4"
+          loading="lazy"
         />
         <h3 className="text-2xl md:text-4xl font-medium">
           Kitchen Remodeling and Renovations
@@ -85,9 +87,10 @@ const Services = () => {
 
       <div className="flex flex-col justify-center mx-5 gap-8 md:gap-10 items-center">
         <img
-                      src="https://i.imgur.com/Meii9kX.jpg"
+          src="https://i.imgur.com/Meii9kX.jpg"
           alt=""
           className="flex md:size-2/4"
+          loading="lazy"
         />
         <h3 className="text-2xl md:text-4xl font-medium">
           Free Consultations: Your Vision, Our Mission
@@ -109,14 +112,15 @@ const Services = () => {
           our hallmark.
           <br />
           <br />
-                      Contact Us today to schedule your free consultation and take the first step towards making your dream home a reality.
+          Contact Us today to schedule your free consultation and take the first
+          step towards making your dream home a reality.
         </p>
-                 <Link
-                      to="https://calendar.app.google/DwsFzMqrtMQqDCVm8"
-                      className="bg-black flex  px-6 py-2 rounded-2xl text-white font-bold hover:bg-lightpink"
-                 >
-                      Book a Free Consultation
-                 </Link>
+        <Link
+          to="/contact"
+          className="bg-black flex  px-6 py-2 rounded-2xl text-white font-bold hover:bg-lightpink"
+        >
+          Book a Free Consultation
+        </Link>
       </div>
     </div>
   );

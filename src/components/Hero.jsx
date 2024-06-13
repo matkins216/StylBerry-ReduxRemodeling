@@ -8,6 +8,7 @@ const Hero = () => {
         src="https://i.imgur.com/PHLhtnh.jpg"
         alt="redux background"
         className="object-cover h-screen w-full top-0 left-0 "
+        loading="lazy"
       />
       <div className="flex bg-black/40 absolute left-0 w-full h-screen z-10 justify-center" />
       <div className="flex flex-col whitespace-normal gap-10 md:w-1/3 md:min-h-[600px] rounded-2xl items-center p-10 md:p-16 w-fit mx-5 justify-center bg-white absolute z-10">
@@ -26,7 +27,7 @@ const Hero = () => {
 
         </p>
         <Link
-          to="https://calendar.app.google/DwsFzMqrtMQqDCVm8"
+          to="/contact"
           className="bg-black flex  px-6 py-2 rounded-2xl text-white font-bold hover:bg-white hover:text-black hover:outline"
         >
           Book a Free Consultation

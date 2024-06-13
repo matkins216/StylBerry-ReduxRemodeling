@@ -8,6 +8,7 @@ const AboutHome = () => {
           src="https://i.imgur.com/GrCPFdA.jpg"
           alt=""
           className="flex md:size-2/4"
+          loading="lazy"
         />
         <h3 className="text-2xl md:text-4xl font-medium">
           Denver Home Remodeling and Renovations
@@ -52,6 +53,7 @@ const AboutHome = () => {
           src="https://i.imgur.com/i4xzafz.jpg"
           alt=""
           className="flex md:size-2/4"
+          loading="lazy"
         />
         <h3 className="text-2xl md:text-4xl font-medium">
           Design Building in Denver
@@ -86,6 +88,7 @@ const AboutHome = () => {
           src="https://i.imgur.com/tzl184D.jpg"
           alt=""
           className="flex md:size-2/4 drop-shadow-2xl"
+          loading="lazy"
         />
         <h3 className="text-2xl md:text-4xl font-medium">
           Kitchen Remodeling in Denver and Beyond
@@ -124,10 +127,13 @@ const AboutHome = () => {
         </p>
       </div>
 
-      
-
       <div className="flex flex-col justify-center mx-5 gap-8 md:gap-10 items-center">
-        <img src="https://i.imgur.com/P4EH9xe.jpg" alt="" className="flex md:size-2/4" />
+        <img
+          src="https://i.imgur.com/P4EH9xe.jpg"
+          alt="Redux Remodeling Colorado"
+          loading="lazy"
+          className="flex md:size-2/4"
+        />
         <h3 className="text-2xl md:text-4xl font-medium">
           Your Denver, Colorado Home Reimagined
         </h3>
