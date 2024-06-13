@@ -1,7 +1,10 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react'
+import { Link } from 'react-router-dom'
 
-const AboutHero = () => {
+const ServicesHero = () => {
+
+
+
   return (
     <div className="relative flex h-screen w-screen items-center md:w-full md:self-center font-rale justify-center">
       <img
@@ -12,11 +15,12 @@ const AboutHero = () => {
       <div className="flex bg-black/40 absolute left-0 w-full h-screen z-10 " />
       <div className="flex flex-col top-44 whitespace-normal gap-10 md:w-1/3 md:min-h-[600px] rounded-2xl items-center p-10 md:p-16 w-fit mx-5 justify-center bg-white absolute z-10">
         <h3 className="text-3xl font-bold text-center text-black mx-5 ">
-          Your Denver Home Remodelers
+          Your Denver Home Contractors
 
         </h3>
         <p className=" flex text-wrap text-xl font-medium md:text-xl mx-5 text-center text-black  w-fit">
-          Book a Consultation with Redux Remodeling to learn more about our services and how we can help you transform your home.
+          At Redux Remodeling, we are not just builders; we are craftsmen and creators, dedicated to elevating the essence of your home through our comprehensive remodeling services in Denver and beyond.
+
 
         </p>
         <Link
@@ -29,7 +33,7 @@ const AboutHero = () => {
 
 
     </div>
-  );
-};
+  )
+}
 
-export default AboutHero;
+export default ServicesHero

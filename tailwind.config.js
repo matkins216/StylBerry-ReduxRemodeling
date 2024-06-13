@@ -1,6 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 
-export default {
+import withMT from "@material-tailwind/react/utils/withMT";
+
+export default withMT({
   content: ["./src/**/*.{js,jsx,ts,tsx}", "./index.html"],
   theme: {
     colors: {
@@ -21,7 +23,7 @@ export default {
       poppins: ["Poppins", "sans-serif"],
       playfair: ["Playfair Display", "sans-serif"],
       jose: ["Josefin Sans", "sans-serif"],
-      rale: ["Raleway", "sans-serif"]
+      rale: ["Raleway", "sans-serif"],
     },
     spacing: {
       px: "1px",
@@ -65,4 +67,4 @@ export default {
     extend: {},
   },
   plugins: [],
-};
+});

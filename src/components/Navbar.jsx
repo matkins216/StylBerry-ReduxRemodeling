@@ -10,7 +10,7 @@ const Navbar = () => {
 
      return (
           <>
-               <div className="flex text-white h-8 bg-black font-rale w-full">
+               {/* <div className="flex text-white h-8 bg-black font-rale w-full">
                     <div className="flex flex-row items-center justify-between m-4 md:mx-10 text-sm w-full font-medium">
                          <p className="flex">
                               New Client Special
@@ -19,19 +19,19 @@ const Navbar = () => {
                               Subscribe & Save!!!
                          </p>
                     </div>
-               </div>
+               </div> */}
 
-               <div className="bg-white flex p-6 top-0 sticky z-50 w-full font-rale drop-shadow-xl ">
+               <div className="bg-white flex p-4 top-0 sticky z-50 w-full font-rale drop-shadow-xl ">
                     <div className="container mx-auto w-full flex justify-between items-center">
-                         <div className="text-black text-3xl font-bold flex-row flex md:gap-6">
-                              <img src="https://i.imgur.com/ha9azoh.png" alt="" className="h-8" />
+                         <div className="text-black text-3xl font-bold flex-row items-center start flex md:gap-2">
+                              <img src="https://i.imgur.com/ha9azoh.png" alt="" className=" size-10" />
 
-                              Redux Remodeling
+                              <p>Redux Remodeling</p>
                          </div>
                          <div className="md:hidden">
                               <button
                                    onClick={toggleMenu}
-                                   className="text-white focus:outline-none"
+                                   className="text-black focus:outline outline-1 -none"
                               >
                                    <svg
                                         className="w-6 h-6"
@@ -59,24 +59,39 @@ const Navbar = () => {
                               </button>
                          </div>
                          <div
-                              className={`md:flex md:gap-6 font-rale md:items-center ${isOpen ? "block" : "hidden"}`}
+                              className={`md:flex md:gap-4 font-rale md:items-center ${isOpen ? "block" : "hidden"}`}
                          >
                               <Link
-                                   className="block text-center px-6 py-2 text-white rounded-2xl md:mt-0 md:ml-4 transform transition duration-500  bg-black hover:bg-black hover:text-white"
+                                   className="block text-center px-6 py-2 text-white rounded-2xl md:mt-0 md:ml-4 transform transition duration-500 hover:outline outline-1  bg-black hover:bg-white hover:text-black"
                                    to="/"
                                    onClick={() => setIsOpen(false)}
                               >
                                    Home
                               </Link>
+                             
                               <Link
-                                   className="block text-center px-6 py-2 text-white rounded-2xl md:mt-0 md:ml-4 transform transition duration-500  bg-black hover:bg-black hover:text-white"
+                                   className="block text-center px-6 py-2 text-white rounded-2xl md:mt-0 md:ml-4 transform transition duration-500 hover:outline outline-1  bg-black hover:bg-white hover:text-black"
                                    to="/about"
                                    onClick={() => setIsOpen(false)}
                               >
                                    About
                               </Link>
                               <Link
-                                   className="block text-center px-6 py-2 text-white rounded-2xl md:mt-0 md:ml-4 transform transition duration-500  bg-black hover:bg-black hover:text-white"
+                                   className="block text-center px-6 py-2 text-white rounded-2xl md:mt-0 md:ml-4 transform transition duration-500 hover:outline outline-1  bg-black hover:bg-white hover:text-black"
+                                   to="/services"
+                                   onClick={() => setIsOpen(false)}
+                              >
+                                   Services
+                              </Link>
+                              <Link
+                                   className="block text-center px-6 py-2 text-white rounded-2xl md:mt-0 md:ml-4 transform transition duration-500 hover:outline outline-1  bg-black hover:bg-white hover:text-black"
+                                   to="/gallery"
+                                   onClick={() => setIsOpen(false)}
+                              >
+                                   Gallery
+                              </Link>
+                              <Link
+                                   className="block text-center px-6 py-2 text-white rounded-2xl md:mt-0 md:ml-4 transform transition duration-500 hover:outline outline-1  bg-black hover:bg-white hover:text-black"
                                    to="/contact"
                                    onClick={() => setIsOpen(false)}
                               >
