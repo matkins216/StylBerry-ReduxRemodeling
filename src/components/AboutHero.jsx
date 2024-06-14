@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const AboutHero = () => {
+
+ 
   return (
     <div className="relative flex h-screen w-screen items-center md:w-full md:self-center font-rale justify-center">
       <img
