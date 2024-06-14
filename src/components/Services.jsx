@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Services = () => {
   return (
     <div className="flex flex-col justify-center text-center px-5 py-10 md:p-16 font-rale gap-20 w-full">
-      <h2 className="text-7xl font-semibold">Services</h2>
+      <h3 className="text-7xl font-semibold">Services</h3>
       <div className="flex flex-col justify-center mx-5 gap-8 md:gap-10 items-center">
         <img
           src="https://i.imgur.com/4lVcpeb.jpg"
@@ -12,9 +12,9 @@ const Services = () => {
           className="flex md:size-2/4"
           loading="lazy"
         />
-        <h3 className="text-2xl md:text-4xl font-medium">
+        <h2 className="text-2xl md:text-4xl font-medium">
           Basement Remodeling and Renovations
-        </h3>
+        </h2>
         <p className="text-lg md:text-xl md:w-3/4">
           Your basement holds untapped potential to add valuable living space to
           your home. At Redux Remodeling, we specialize in transforming
@@ -28,9 +28,9 @@ const Services = () => {
       </div>
 
       <div className="flex flex-col justify-center mx-5 gap-8 md:gap-10 items-center  ">
-        <h3 className="text-2xl md:text-4xl font-medium">
+        <h2 className="text-2xl md:text-4xl font-medium">
           Bathroom Remodeling and Renovations
-        </h3>
+        </h2>
         <p className="text-lg md:text-xl md:w-3/4">
           A bathroom remodel with Redux Remodeling goes beyond the surface. We
           delve into every detail to create a sanctuary that aligns with your
@@ -52,9 +52,9 @@ const Services = () => {
           className="flex md:size-2/4"
           loading="lazy"
         />
-        <h3 className="text-2xl md:text-4xl font-medium">
+        <h2 className="text-2xl md:text-4xl font-medium">
           Kitchen Remodeling and Renovations
-        </h3>
+        </h2>
         <p className="text-lg md:text-xl md:w-3/4">
           The kitchen is the heart of your home, and at Redux Remodeling, we
           understand the importance of a kitchen space that is not only
@@ -71,9 +71,9 @@ const Services = () => {
       </div>
 
       <div className="flex flex-col justify-center mx-5 gap-8 md:gap-10 items-center ">
-        <h3 className="text-2xl md:text-4xl font-medium">
+        <h2 className="text-2xl md:text-4xl font-medium">
           Beyond the Kitchen and Bath: Other Home Remodeling Services
-        </h3>
+        </h2>
         <p className="text-lg md:text-xl md:w-3/4">
           Our expertise doesn't end with basements, bathrooms, and kitchens.
           Redux Remodeling offers a full spectrum of home remodeling services to
@@ -92,9 +92,9 @@ const Services = () => {
           className="flex md:size-2/4"
           loading="lazy"
         />
-        <h3 className="text-2xl md:text-4xl font-medium">
+        <h2 className="text-2xl md:text-4xl font-medium">
           Free Consultations: Your Vision, Our Mission
-        </h3>
+        </h2>
         <p className="text-lg md:text-xl md:w-3/4">
           At Redux Remodeling, we believe in starting every project with a clear
           understanding of your goals and aspirations. That's why we offer free

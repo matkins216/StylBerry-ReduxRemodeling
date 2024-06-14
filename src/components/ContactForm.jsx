@@ -68,7 +68,7 @@ const ContactForm = () => {
         />
        <textarea className="form-input p-1 shadow-xl outline outline-1 outline-offset-1" rows={5} placeholder="Message"></textarea>
 
-        <button className="bg-black flex  px-6 py-2 rounded-full text-white font-bold hover:bg-white hover:text-black hover:outline outline-1  " type="submit">
+        <button className="bg-black flex  px-6 py-2 rounded-full text-white font-bold hover:bg-white hover:text-black hover:outline outline-1" type="submit">
           Book Your Free Consultation
         </button>
       </form>
