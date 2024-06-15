@@ -3,7 +3,7 @@ import React from "react";
 const Testimonials = () => {
   return (
     <div className="flex flex-col md:flex-row w-full py-10 md:p-16 gap-10 justify-center items-center">
-      <div className="flex-col md:w-128 h-3/5 rounded-2xl shadow-2xl gap-10 flex p-5 md:p-16 w-96 ">
+      <div className="flex-col md:w-128 h-3/5 rounded-2xl shadow-2xl gap-10 flex p-5 md:p-16 w-72 ">
         <p className="flex text-lg font-medium text-center">
           "Was referred by one of our friends as we were looking for someone to
           remodel our bathroom and could not have been more satisfied! The team
@@ -85,7 +85,7 @@ const Testimonials = () => {
           </svg>
         </div>
       </div>
-      <div className="flex-col md:w-128 h-3/5 rounded-2xl shadow-2xl gap-10 flex p-5 md:p-16 w-96 ">
+      <div className="flex-col md:w-128 h-3/5 rounded-2xl shadow-2xl gap-10 flex p-5 md:p-16 w-72 ">
         <p className="flex text-lg font-medium text-center">
           "I hired Redux Remodeling to do the primary bathroom in my house and I
           was amazed with their exceptional service and craftsmanship. They were
@@ -171,7 +171,7 @@ const Testimonials = () => {
           </svg>
         </div>
       </div>
-      <div className="flex-col md:w-128 h-3/5 rounded-2xl shadow-2xl gap-10 flex p-5 md:p-16 w-96 ">
+      <div className="flex-col md:w-128 h-3/5 rounded-2xl shadow-2xl gap-10 flex p-5 md:p-16 w-72 ">
         <p className="flex text-lg font-medium text-center">
           "Heard of the company through a friend after buying my first place.
           Needed the kitchen remodeled to have a more modern feel and these guys
