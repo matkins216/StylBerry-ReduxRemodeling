@@ -9,7 +9,8 @@ const AboutHero = () => {
       <img
         src="https://i.imgur.com/VgnCwHp.jpg?3"
         alt="redux background"
-        className="object-cover h-screen w-full top-0 left-0 "
+        className="object-fit h-screen w-full top-0 left-0 "
+        
       />
       <div className="flex bg-black/40 absolute left-0 w-full h-screen z-10 " />
       <div className="flex flex-col top-44 whitespace-normal gap-10 md:w-1/3 md:min-h-[600px] rounded-2xl items-center p-10 md:p-16 w-fit mx-5 justify-center bg-white absolute z-10">

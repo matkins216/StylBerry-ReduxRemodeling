@@ -3,46 +3,47 @@ import Zoom from 'react-medium-image-zoom'
 
 const Gallery = () => {
      const data = [
-          { imgelink: "https://i.imgur.com/8KXCokB.jpg" },
-          { imgelink: "https://i.imgur.com/OfNhTPx.jpg" },
-          { imgelink: "https://i.imgur.com/LBP1yif.jpg" },
-          { imgelink: "https://i.imgur.com/PPsRCKe.jpg" },
-          { imgelink: "https://i.imgur.com/8O4qmR3.jpg" },
-          { imgelink: "https://i.imgur.com/i4xzafz.jpg" },
-          { imgelink: "https://i.imgur.com/c4AdLNy.jpg" },
-          { imgelink: "https://i.imgur.com/v6SICgV.jpg" },
-          { imgelink: "https://i.imgur.com/KJa0Kou.jpg" },
-          { imgelink: "https://i.imgur.com/W0ggKCz.jpg" },
-          { imgelink: "https://i.imgur.com/JHmOrvc.jpg" },
-          { imgelink: "https://i.imgur.com/ylqdWU3.jpg" },
-          { imgelink: "https://i.imgur.com/nD9ScUQ.jpg" },
-          { imgelink: "https://i.imgur.com/j1aNsIK.jpg" },
-          { imgelink: "https://i.imgur.com/RC7JzAU.jpg" },
-          { imgelink: "https://i.imgur.com/NSbXbN8.jpg" },
-          { imgelink: "https://i.imgur.com/Hy4SUTo.jpg" },
-          { imgelink: "https://i.imgur.com/PK2ZgFH.jpg" },
-          { imgelink: "https://i.imgur.com/UnGEao7.jpg" },
-          { imgelink: "https://i.imgur.com/m8QeyME.jpg" },
-          { imgelink: "https://i.imgur.com/GrCPFdA.jpg" },
-          { imgelink: "https://i.imgur.com/4lVcpeb.jpg" },
-          { imgelink: "https://i.imgur.com/zlJh5lG.jpg" },
-          { imgelink: "https://i.imgur.com/jC4hStM.jpg" },
-          { imgelink: "https://i.imgur.com/7KjYmEN.jpg" },
-          { imgelink: "https://i.imgur.com/P4EH9xe.jpg" },
-          { imgelink: "https://i.imgur.com/fof5mud.jpg" },
-          { imgelink: "https://i.imgur.com/tbl013M.jpg" },
-          { imgelink: "https://i.imgur.com/QRGfUw8.jpg" },
-          { imgelink: "https://i.imgur.com/G35TpsI.jpg" },
-          { imgelink: "https://i.imgur.com/awKdi8B.jpg" },
-          { imgelink: "https://i.imgur.com/M1xb0mm.jpg" },
-          { imgelink: "https://i.imgur.com/TfK2NMR.jpg" },
-          { imgelink: "https://i.imgur.com/Xub3TH5.jpg" },
-          { imgelink: "https://i.imgur.com/tzl184D.jpg" },
-          { imgelink: "https://i.imgur.com/6P1jJ3o.jpg" },
-          { imgelink: "https://i.imgur.com/ZXDOGnR.jpg" },
-          { imgelink: "https://i.imgur.com/M2xfXbi.jpg" },
+          { imgelink: "https://i.postimg.cc/DyqM5ffz/5-7-24-1620-Little-Raven-1.jpg" },
+          { imgelink: "https://i.postimg.cc/PrzSY6Kp/5-7-24-1620-Little-Raven-10.jpg" },
+          { imgelink: "https://i.postimg.cc/T3dC9rHk/5-7-24-1620-Little-Raven-11.jpg" },
+          { imgelink: "https://i.postimg.cc/FR4vWC5t/5-7-24-1620-Little-Raven-16.jpg" },
+          { imgelink: "https://i.postimg.cc/GtgZCqNm/5-7-24-1620-Little-Raven-17.jpg" },
+          { imgelink: "https://i.postimg.cc/HshgDkD9/5-7-24-1620-Little-Raven-18.jpg" },
+          { imgelink: "https://i.postimg.cc/XNxWLgsh/5-7-24-1620-Little-Raven-19.jpg" },
+          { imgelink: "https://i.postimg.cc/bwpF5Xd9/5-7-24-1620-Little-Raven-2.jpg" },
+          { imgelink: "https://i.postimg.cc/Hsxgh7KL/5-7-24-1620-Little-Raven-20.jpg" },
+          { imgelink: "https://i.postimg.cc/4yySBpdk/5-7-24-1620-Little-Raven-21.jpg" },
+          { imgelink: "https://i.postimg.cc/sXwLYT34/5-7-24-1620-Little-Raven-22.jpg" },
+          { imgelink: "https://i.postimg.cc/D0NYDmJW/5-7-24-1620-Little-Raven-23.jpg" },
+          { imgelink: "https://i.postimg.cc/rFdH4G35/5-7-24-1620-Little-Raven-24.jpg" },
+          { imgelink: "https://i.postimg.cc/hGnZNkj0/5-7-24-1620-Little-Raven-25.jpg" },
+          { imgelink: "https://i.postimg.cc/SNwvf2b3/5-7-24-1620-Little-Raven-26.jpg" },
+          { imgelink: "https://i.postimg.cc/25x9Y0LN/5-7-24-1620-Little-Raven-27.jpg" },
+          { imgelink: "https://i.postimg.cc/sXD6g55Q/5-7-24-1620-Little-Raven-28.jpg" },
+          { imgelink: "https://i.postimg.cc/tTSrZ7zr/5-7-24-1620-Little-Raven-29.jpg" },
+          { imgelink: "https://i.postimg.cc/7Z9Q8B28/5-7-24-1620-Little-Raven-3.jpg" },
+          { imgelink: "https://i.postimg.cc/Xvv1VwfZ/5-7-24-1620-Little-Raven-4.jpg" },
+          { imgelink: "https://i.postimg.cc/FRdPSNnN/5-7-24-1620-Little-Raven-5.jpg" },
+          { imgelink: "https://i.postimg.cc/MTC9bNhR/5-7-24-1620-Little-Raven-6.jpg" },
+          { imgelink: "https://i.postimg.cc/7hSmBXkR/5-7-24-1620-Little-Raven-7.jpg" },
+          { imgelink: "https://i.postimg.cc/wxNfTxmk/5-7-24-1620-Little-Raven-8.jpg" },
+          { imgelink: "https://i.postimg.cc/FsQPftbX/5-7-24-1620-Little-Raven-9.jpg" },
+          { imgelink: "https://i.postimg.cc/xd9g6Lxx/IMG-1106.jpg" },
+          { imgelink: "https://i.postimg.cc/V66g8mcX/unnamed.jpg" },
+          { imgelink: "https://i.postimg.cc/3N0Zk1NR/unnamed-1.jpg" },
+          { imgelink: "https://i.postimg.cc/76fRNgbv/unnamed-10.jpg" },
+          { imgelink: "https://i.postimg.cc/Kc3VkrdB/unnamed-11.jpg" },
+          { imgelink: "https://i.postimg.cc/G2V5gHs4/unnamed-12.jpg" },
+          { imgelink: "https://i.postimg.cc/7hzQFwgm/unnamed-13.jpg" },
+          { imgelink: "https://i.postimg.cc/v81R7d61/unnamed-2.jpg" },
+          { imgelink: "https://i.postimg.cc/WtRwgZq7/unnamed-3.jpg" },
+          { imgelink: "https://i.postimg.cc/ry7BQYSf/unnamed-4.jpg" },
+          { imgelink: "https://i.postimg.cc/CxgWVBrD/unnamed-5.jpg" },
+          { imgelink: "https://i.postimg.cc/65RDSLct/unnamed-6.jpg" },
+          { imgelink: "https://i.postimg.cc/qvxWBJWF/unnamed-7.jpg" },
+          { imgelink: "https://i.postimg.cc/SKZ58ZS7/unnamed-8.jpg" },
+          { imgelink: "https://i.postimg.cc/TP2FK863/unnamed-9.jpg" },
      ];
-
 
      return (
           <div className="flex flex-col items-center justify-center p-10 w-full font-rale">
@@ -50,13 +51,11 @@ const Gallery = () => {
                <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 w-full md:grid-cols-3">
                     {data.map(({ imgelink }, index) => (
                          <div key={index}>
-                                  
                               <img
                                    className="h-full w-full max-w-full rounded-lg object-cover object-center"
                                    src={imgelink}
                                    alt="gallery-photo"
                                    loading="lazy"
-                                   
                               />
                          </div>
                     ))}
