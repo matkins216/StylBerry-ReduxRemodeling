@@ -5,9 +5,9 @@ const AboutHome = () => {
     <div className="flex flex-col justify-center text-center px-5 py-10 md:p-16 font-rale gap-20 w-full">
       <div className="flex flex-col justify-center mx-5 gap-8 md:gap-10 items-center">
         <img
-          src="https://i.imgur.com/GrCPFdA.jpg"
+          src="https://i.postimg.cc/sXFj32sX/5-7-24-1620-Little-Raven-16.jpg"
           alt=""
-          className="flex md:size-2/4"
+          className="flex w-[320px] h-[240px]"
           loading="lazy"
         />
         <h3 className="text-2xl md:text-4xl font-medium">
@@ -50,7 +50,7 @@ const AboutHome = () => {
 
       <div className="flex flex-col justify-center mx-5 gap-8 md:gap-10 items-center">
         <img
-          src="https://i.imgur.com/i4xzafz.jpg"
+          src="https://i.postimg.cc/R0wrQLxS/unnamed-5.jpg"
           alt=""
           className="flex md:size-2/4"
           loading="lazy"
@@ -85,7 +85,7 @@ const AboutHome = () => {
 
       <div className="flex flex-col justify-center mx-5 gap-8 md:gap-10 items-center">
         <img
-          src="https://i.imgur.com/tzl184D.jpg"
+          src="https://i.postimg.cc/Vv8kWkVT/5-7-24-1620-Little-Raven-3.jpg"
           alt=""
           className="flex md:size-2/4 drop-shadow-2xl"
           loading="lazy"
@@ -129,7 +129,7 @@ const AboutHome = () => {
 
       <div className="flex flex-col justify-center mx-5 gap-8 md:gap-10 items-center">
         <img
-          src="https://i.imgur.com/P4EH9xe.jpg"
+          src="https://i.postimg.cc/tgQwTnZL/unnamed-13.jpg"
           alt="Redux Remodeling Colorado"
           loading="lazy"
           className="flex md:size-2/4"
