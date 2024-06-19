@@ -37,9 +37,11 @@ const Footer = () => {
           >
             <img
               height="100px"
+              width="100px"
               alt="Redux Remodeling, LLC is a HomeAdvisor Screened & Approved Pro"
               style={{ display: "block" }}
               src="http://www.homeadvisor.com/images/sp-badges/soap-solid-border.png?sp=134508613&key=65b66875c101b3d9b73257744670ce82"
+              loading="lazy"
             />
           </a>
         </div>
