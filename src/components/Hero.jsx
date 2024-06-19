@@ -7,7 +7,7 @@ const Hero = () => {
       <img
         src="https://i.imgur.com/PHLhtnh.jpg"
         alt="redux background"
-        className="object-fit h-screen w-full top-0 left-0 "
+        className="object-cover h-svh w-full top-0 left-0 "
         fetchPriority="high"
         
       />
