@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className="relative flex h-screen w-screen items-center md:w-full md:self-center font-rale justify-center">
       <img
-        src="https://stylberry.sirv.com/Images/redux%20photos/jason-briscoe-GliaHAJ3_5A-unsplash.jpg?format=webp&webp.fallback=png"
+        src="https://i.postimg.cc/RCN8gwHz/jason-briscoe-Glia-HAJ3-5-A-unsplash.jpg"
         alt="redux background"
         className="object-cover h-screen w-full top-0 left-0 "
         fetchPriority="high"
