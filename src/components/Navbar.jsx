@@ -24,7 +24,7 @@ const Navbar = () => {
                <div className="bg-white flex p-4 top-0 sticky z-50 w-full font-rale drop-shadow-xl ">
                     <div className="container mx-auto w-full flex justify-between items-center">
                          <div className="text-black text-2xl font-bold flex-row items-center start flex md:gap-2">
-                              <img src="https://i.imgur.com/ha9azoh.png" alt="" className=" w-[32px] h-[32px]" loading="lazy" />
+                              <img src="https://i.imgur.com/ha9azoh.png" alt="" className=" w-[32px] h-[32px]" />
 
                               <p>Redux Remodeling</p>
                          </div>
