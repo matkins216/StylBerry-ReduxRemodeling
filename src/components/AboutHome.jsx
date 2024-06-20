@@ -6,7 +6,7 @@ const AboutHome = () => {
       <div className="flex flex-col justify-center mx-5 gap-8 md:gap-10 items-center">
         <img
           src="https://i.postimg.cc/sXFj32sX/5-7-24-1620-Little-Raven-16.jpg"
-          alt=""
+          alt="redux remodeling - kitchen "
           className="flex w-[320px] h-[240px]"
           loading="lazy"
         />
