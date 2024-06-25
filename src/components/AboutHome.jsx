@@ -10,9 +10,9 @@ const AboutHome = () => {
           className="flex w-[320px] h-[240px] md:w-[640px] md:h-[480px]"
           loading="lazy"
         />
-        <h3 className="text-2xl md:text-4xl font-medium">
+        <h2 className="text-2xl md:text-4xl font-medium">
           Denver Home Remodeling and Renovations
-        </h3>
+        </h2>
         <p className="text-lg md:text-xl md:w-3/4">
           Redux Remodeling is your premier choice when it comes to top-notch
           home transformations in Denver, Boulder, and beyond. We specialize in
@@ -33,9 +33,9 @@ const AboutHome = () => {
       </div>
 
       <div className="flex flex-col justify-center mx-5 gap-8 md:gap-10 items-center  ">
-        <h3 className="text-2xl md:text-4xl font-medium">
+        <h2 className="text-2xl md:text-4xl font-medium">
           Your Denver Home Remodelers
-        </h3>
+        </h2>
         <p className="text-lg md:text-xl md:w-3/4">
           Our extensive portfolio of home remodeling in Denver showcases our
           ability to blend functionality with aesthetics, turning ordinary rooms
@@ -55,9 +55,9 @@ const AboutHome = () => {
           className="flex w-[320px] h-[240px] md:w-[640px] md:h-[480px]"
           loading="lazy"
         />
-        <h3 className="text-2xl md:text-4xl font-medium">
+        <h2 className="text-2xl md:text-4xl font-medium">
           Design Building in Denver
-        </h3>
+        </h2>
         <p className="text-lg md:text-xl md:w-3/4">
           We take pride in being one of the leading design-build firms in
           Denver, where our integrated approach streamlines the remodeling
@@ -70,9 +70,9 @@ const AboutHome = () => {
       </div>
 
       <div className="flex flex-col justify-center mx-5 gap-8 md:gap-10 items-center ">
-        <h3 className="text-2xl md:text-4xl font-medium">
+        <h2 className="text-2xl md:text-4xl font-medium">
           Denver Bathroom Remodeling
-        </h3>
+        </h2>
         <p className="text-lg md:text-xl md:w-3/4">
           Bath remodeling in Denver, CO, with Redux Remodeling, means you get to
           enjoy a perfect blend of luxury and practicality. Our bathroom remodel
@@ -90,9 +90,9 @@ const AboutHome = () => {
           className="flex w-[320px] h-[240px] md:w-[640px] md:h-[480px] "
           loading="lazy"
         />
-        <h3 className="text-2xl md:text-4xl font-medium">
+        <h2 className="text-2xl md:text-4xl font-medium">
           Kitchen Remodeling in Denver and Beyond
-        </h3>
+        </h2>
         <p className="text-lg md:text-xl md:w-3/4">
           The kitchen is the heart of the home, and our kitchen remodeling
           Denver services are designed to enhance this central space. From
@@ -105,9 +105,9 @@ const AboutHome = () => {
       </div>
 
       <div className="flex flex-col justify-center mx-5 gap-8 md:gap-10 items-center ">
-        <h3 className="text-2xl md:text-4xl font-medium">
+        <h2 className="text-2xl md:text-4xl font-medium">
           Free Consultations for Mapping Your Dream Home
-        </h3>
+        </h2>
         <p className="text-lg md:text-xl md:w-3/4">
           At Redux Remodeling, we understand that remodeling can be daunting.
           That's why we provide free consultations to discuss your vision and
@@ -134,9 +134,9 @@ const AboutHome = () => {
           loading="lazy"
           className="flex w-[320px] h-[240px] md:w-[640px] md:h-[480px] "
         />
-        <h3 className="text-2xl md:text-4xl font-medium">
+        <h2 className="text-2xl md:text-4xl font-medium">
           Your Denver, Colorado Home Reimagined
-        </h3>
+        </h2>
         <p className="text-lg md:text-xl md:w-3/4">
           Let's make your Colorado home a place where you truly belong. With
           Redux Remodeling, your dream home is just a renovation away. We
