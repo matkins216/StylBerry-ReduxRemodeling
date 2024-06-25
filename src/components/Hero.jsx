@@ -7,7 +7,7 @@ const Hero = () => {
       <img
         src="https://i.postimg.cc/RCN8gwHz/jason-briscoe-Glia-HAJ3-5-A-unsplash.jpg"
         alt="redux background"
-        className="object-cover h-fit w-full top-0 left-0 "
+        className="object-cover h-[800px] md:h-[1000px] w-screen top-0 left-0 "
         fetchPriority="high"
         loading="eager"
         
