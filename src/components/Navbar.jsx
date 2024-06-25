@@ -31,6 +31,7 @@ const Navbar = () => {
                          <div className="md:hidden">
                               <button
                                    onClick={toggleMenu}
+                                   aria-label="Navigation button"
                                    className="text-black focus:outline outline-1 -none"
                               >
                                    <svg
@@ -62,6 +63,7 @@ const Navbar = () => {
                               className={`md:flex md:gap-4 font-rale md:items-center ${isOpen ? "block" : "hidden"}`}
                          >
                               <Link
+                                   aria-label="Home Button"
                                    className="block text-center px-6 py-2 text-white rounded-2xl md:mt-0 md:ml-4 transform transition duration-500 hover:outline outline-1  bg-black hover:bg-white hover:text-black"
                                    to="/"
                                    onClick={() => setIsOpen(false)}
@@ -70,6 +72,7 @@ const Navbar = () => {
                               </Link>
                              
                               <Link
+                                   aria-label="About Button"
                                    className="block text-center px-6 py-2 text-white rounded-2xl md:mt-0 md:ml-4 transform transition duration-500 hover:outline outline-1  bg-black hover:bg-white hover:text-black"
                                    to="/about"
                                    onClick={() => setIsOpen(false)}
@@ -77,6 +80,7 @@ const Navbar = () => {
                                    About
                               </Link>
                               <Link
+                                   aria-label="Services Button"
                                    className="block text-center px-6 py-2 text-white rounded-2xl md:mt-0 md:ml-4 transform transition duration-500 hover:outline outline-1  bg-black hover:bg-white hover:text-black"
                                    to="/services"
                                    onClick={() => setIsOpen(false)}
@@ -84,6 +88,7 @@ const Navbar = () => {
                                    Services
                               </Link>
                               <Link
+                              aria-label="Gallery Button"
                                    className="block text-center px-6 py-2 text-white rounded-2xl md:mt-0 md:ml-4 transform transition duration-500 hover:outline outline-1  bg-black hover:bg-white hover:text-black"
                                    to="/gallery"
                                    onClick={() => setIsOpen(false)}
@@ -91,6 +96,7 @@ const Navbar = () => {
                                    Gallery
                               </Link>
                               <Link
+                                   aria-label="Contact Button"
                                    className="block text-center px-6 py-2 text-white rounded-2xl md:mt-0 md:ml-4 transform transition duration-500 hover:outline outline-1  bg-black hover:bg-white hover:text-black"
                                    to="/contact"
                                    onClick={() => setIsOpen(false)}

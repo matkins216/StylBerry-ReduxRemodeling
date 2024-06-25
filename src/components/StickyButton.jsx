@@ -10,7 +10,7 @@ const StickyButton = () => {
      };
 
   return (
-       <div className='fixed bottom-4 right-4 bg-black text-white p-4 rounded-full shadow-lg cursor-pointer z-50'>
+       <div aria-label='Call button' className='fixed bottom-4 right-4 bg-black text-white p-4 rounded-full shadow-lg cursor-pointer z-50'>
             <ImPhone onClick={handleClick} className='text-4xl decoration-white' />
     </div>
   )

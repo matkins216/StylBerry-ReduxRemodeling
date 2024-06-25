@@ -29,6 +29,7 @@ const Hero = () => {
 
         </p>
         <Link
+          aria-label="Book a free consultation"
           to="/contact"
           className="bg-black flex  px-6 py-2 rounded-2xl text-white font-bold hover:bg-white hover:text-black hover:outline hover:outline-1"
         >
