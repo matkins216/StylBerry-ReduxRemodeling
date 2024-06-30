@@ -32,7 +32,7 @@ const Footer = () => {
         {/* email */}
         <div className=" mt-10 mb-2 flex gap-2 items-center">
           <a
-            href="http://www.homeadvisor.com/rated.ReduxRemodelingLLC.134508613.html"
+            href="https://www.homeadvisor.com/rated.ReduxRemodelingLLC.134508613.html"
             style={{ display: "block", margin: "0 auto" }}
           >
             <img
@@ -40,7 +40,7 @@ const Footer = () => {
               width="100px"
               alt="Redux Remodeling, LLC is a HomeAdvisor Screened & Approved Pro"
               style={{ display: "block" }}
-              src="http://www.homeadvisor.com/images/sp-badges/soap-solid-border.png?sp=134508613&key=65b66875c101b3d9b73257744670ce82"
+              src="https://www.homeadvisor.com/images/sp-badges/soap-solid-border.png?sp=134508613&key=65b66875c101b3d9b73257744670ce82"
               loading="lazy"
             />
           </a>
