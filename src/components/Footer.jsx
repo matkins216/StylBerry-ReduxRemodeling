@@ -45,6 +45,8 @@ const Footer = () => {
             />
           </a>
         </div>
+        <p className="text-sm">Site Built and Managed by <a className=" font-semibold" href="https://stylberry.com/">StylBerry</a></p>
+
       </div>
 
       {/* about author or app/copyrights */}
