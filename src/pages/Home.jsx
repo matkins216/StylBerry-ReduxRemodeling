@@ -4,6 +4,7 @@ import Hero from "../components/Hero";
 import AboutHome from "../components/AboutHome";
 import Footer from "../components/Footer";
 import Line from "../components/Line";
+import FeaturedProjSlider from "../components/FeaturedProjSlider";
 import Testimonials from "../components/Testimonials";
 import { Helmet } from "react-helmet";
 import CookieConsent from "react-cookie-consent";
@@ -25,7 +26,7 @@ const Home = () => {
 
       <Hero />
       <AboutHome />
-      <Line />
+      <FeaturedProjSlider />
       <Testimonials />
       <CookieConsent
         location="bottom"
