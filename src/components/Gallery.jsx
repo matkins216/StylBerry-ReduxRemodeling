@@ -3,6 +3,15 @@ import Zoom from 'react-medium-image-zoom'
 
 const Gallery = () => {
      const data = [
+          { imgelink: "https://i.imgur.com/1pkew7d.jpg" },
+          { imgelink: "https://i.imgur.com/1LxzWIi.jpg" },
+          { imgelink: "https://i.imgur.com/s5Ktb4Y.jpg" },
+          { imgelink: "https://i.imgur.com/1DU1noL.jpg" },
+          { imgelink: "https://i.imgur.com/M28wxsS.jpg" },
+          { imgelink: "https://i.imgur.com/jWKixh8.jpg" },
+          { imgelink: "https://i.imgur.com/BwwHV9r.jpg" },
+          { imgelink: "https://i.imgur.com/N7mV7gO.jpg" },
+          { imgelink: "https://i.imgur.com/DpfY0LM.jpg" },
           { imgelink: "https://i.postimg.cc/DyqM5ffz/5-7-24-1620-Little-Raven-1.jpg" },
           { imgelink: "https://i.postimg.cc/PrzSY6Kp/5-7-24-1620-Little-Raven-10.jpg" },
           { imgelink: "https://i.postimg.cc/T3dC9rHk/5-7-24-1620-Little-Raven-11.jpg" },
