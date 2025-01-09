@@ -52,6 +52,17 @@ const Gallery = () => {
           { imgelink: "https://i.postimg.cc/qvxWBJWF/unnamed-7.jpg" },
           { imgelink: "https://i.postimg.cc/SKZ58ZS7/unnamed-8.jpg" },
           { imgelink: "https://i.postimg.cc/TP2FK863/unnamed-9.jpg" },
+          { imgelink: "https://i.imgur.com/MRGGeuX.jpg" },
+          { imgelink: "https://i.imgur.com/SbkH3Q8.jpg" },
+          { imgelink: "https://i.imgur.com/O2Y2xrP.jpg" },
+          { imgelink: "https://i.imgur.com/O2hhqQA.jpg" },
+          { imgelink: "https://i.imgur.com/IFBANjn.jpg" },
+          { imgelink: "https://i.imgur.com/Z5ZbUBM.jpg" },
+          { imgelink: "https://i.imgur.com/3F8OOLn.jpg" },
+          { imgelink: "https://i.imgur.com/dHpwm2u.jpg" },
+          { imgelink: "https://i.imgur.com/E8KtDpP.jpg" },
+          { imgelink: "https://i.imgur.com/DFAR74G.jpg" },
+
      ];
 
      return (
