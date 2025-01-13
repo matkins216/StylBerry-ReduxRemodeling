@@ -68,7 +68,7 @@ const Gallery = () => {
      return (
           <div className="flex flex-col items-center justify-center p-10 w-full font-rale">
                <h4 className="flex py-4 mb-10 text-7xl">See Our Work</h4>
-               <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 w-full md:grid-cols-3">
+               <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 w-full md:grid-cols-4">
                     {data.map(({ imgelink }, index) => (
                          <div key={index}>
                               <img
