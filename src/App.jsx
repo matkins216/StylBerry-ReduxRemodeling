@@ -7,7 +7,6 @@ import Home from "./pages/Home";
 import ContactPage from "./pages/ContactPage";
 import ServicesPage from "./pages/ServicesPage";
 import GalleryPage from "./pages/GalleryPage";
-// import ReactGA from 'react-ga4';
 
 function App() {
   return (
