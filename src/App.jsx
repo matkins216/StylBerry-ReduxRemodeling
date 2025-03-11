@@ -20,7 +20,6 @@ function App() {
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/services" element={<ServicesPage />} />
           <Route path="/gallery" element={<GalleryPage />} />
-          <Route path="*" element={<h1>404</h1>} />
         </Route>
       </Routes>
     </BrowserRouter>
