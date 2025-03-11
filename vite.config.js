@@ -14,6 +14,11 @@ export default defineConfig({
       },
     }),
   ],
+  base: '/',
+  server: {
+    open: true,
+    hmr: true
+  },
 
   css: {
     postcss: {
